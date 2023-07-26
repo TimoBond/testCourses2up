@@ -1,0 +1,84 @@
+.logo {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Навігаційне меню */
+.navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.navigation a:hover {
+    color: #666;
+}
+
+/* Таблиця */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 40px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 26px;
+}
+
+/* Кнопка реєстрації */
+.btnLogin-popup {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btnLogin-popup:hover {
+    background-color: #666;
+}
+
+/* Посилання "Return" */
+a.return-link {
+    display: block;
+    margin-top: 40px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a.return-link:hover {
+    color: #666;
+}
+.course {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.as input[type="submit"] {
+    width: 250px;
+    height: 60px;
+    background-color: #bcbcdc;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
